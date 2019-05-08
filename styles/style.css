@@ -1,0 +1,136 @@
+body {
+	background-color: #d1e4ff;
+	margin: 0 0;
+	box-sizing: border-box;
+}
+body .container {
+	color: #252525;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+	max-width: 980px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 0 30px;
+}
+.container h1 {
+	font-size: 42px;
+	margin: 0 0 1em 0;
+	padding: 1em 0 0 0;
+}
+.container h2 {
+	font-size: 36px;
+	margin: 1em 0;
+}
+.container h3 {
+	font-size: 30px;
+	margin: 1em 0;
+}
+.container h4 {
+	font-size: 26px;
+	margin: 1em 0;
+}
+.container h5 {
+	font-size: 20px;
+	margin: 1em 0;
+}
+.container h6 {
+	font-size: 16px;
+	margin: 1em 0;
+}
+.container p {
+	line-height: 1.375;
+}
+p code {
+	font-size: 16px;
+	background-color: #f0e6d6;
+	padding: 0 5px;
+}
+p .marked-text {
+	background-color: #ffff00;
+	padding: 0 5px;
+}
+p .underlined-text {
+	text-decoration-line: underline;
+}
+p .lined-text {
+	text-decoration-line: line-through;
+}
+p .link-text {
+	color: #2780e3;
+	text-decoration: underline;
+}
+p sup,sub {
+	font-size: 62%;
+}
+p kbd {
+	background-color: #eadcea;
+	padding: 0 5px;
+}
+p samp {
+	font-size: 14px;
+	background-color: #eadcdc;
+	padding: 0 5px;
+}
+p abbr {
+	text-decoration-style: solid; 
+}
+.container blockquote {
+	font-size: 16px;
+	margin: 1em 0;
+	padding: 10px 30px;
+	background-color: #eadcea;
+	border-left: 4px solid #b496b4;
+}
+.container pre {
+	font-size: 16px;
+	background-color: #f0e6d6;
+	margin-bottom: 70px;
+	padding: 10px 0;
+}
+.container ul ul {
+	list-style-type: square;
+}
+.container ul ul ul {
+	list-style-image: url(https://img.icons8.com/windows/8/000000/unchecked-checkbox.png);
+}
+.container a {
+	color: #2780e3;
+}
+.container h2 + h4 {
+	margin-bottom: 15px;
+}
+.container ul + h4 {
+	margin-bottom: 15px;
+}
+.container p + h2 {
+	margin-bottom: 20px;
+}
+li > ul,ol {
+	margin-top: 1em;
+}
+dt .bold-text {
+	font-weight: 700;
+}
+dt ~ dt {
+	margin-top: 1em;
+}
+.container table {
+	border: 1px solid #b496b4;
+	width: 100%;
+	border-collapse: collapse;
+}
+table tr td {
+	padding-left: 10px;
+	border: 1px solid #b496b4;
+	height: 32px;
+}
+table tr th {
+	border: 1px solid #b496b4;
+	height: 32px;
+	font-weight: 400;
+	background-color: #eadcea;
+}
+.container dl + h2 {
+	margin-top: 55px;
+	margin-bottom: 16px;
+}
